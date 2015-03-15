@@ -4,7 +4,7 @@
   "description": "Stylus lint plugin for Gulp",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/tetor/gulp-stylus-help/issues"
   },
-  "homepage": "https://github.com/tetor/gulp-stylus-help"
+  "homepage": "https://github.com/tetor/gulp-stylus-help",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "~2.2.1"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.1"
+  }
 }
