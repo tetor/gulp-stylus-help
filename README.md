@@ -1,4 +1,4 @@
-[![Build Status](https://drone.io/github.com/tetor/gulp-stylus-help/status.png)](https://drone.io/github.com/tetor/gulp-stylus-help/latest)
+[![Circle CI](https://circleci.com/gh/tetor/gulp-stylus-help/tree/master.svg?style=svg)](https://circleci.com/gh/tetor/gulp-stylus-help/tree/master)
 
 # gulp-stylus-help
 
