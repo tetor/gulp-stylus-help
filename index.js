@@ -1,5 +1,7 @@
 'use strict';
 
+var through = require('through2');
+
 module.exports = function () {
-  return;
+  return through.obj();
 }

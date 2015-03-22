@@ -29,9 +29,10 @@
   "homepage": "https://github.com/tetor/gulp-stylus-help",
   "devDependencies": {
     "chai": "^2.1.1",
-    "mocha": "~2.2.1"
+    "mocha": "~2.2.1",
+    "coffee-script": "^1.9.1"
   },
   "dependencies": {
-    "coffee-script": "^1.9.1"
+    "through2": "^0.6.3"
   }
 }
