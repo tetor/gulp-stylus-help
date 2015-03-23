@@ -1,7 +1,8 @@
 'use strict';
 
-var through = require('through2');
+require('coffee-script/register');
+var gulpStylusHelp = require('./src/main')
 
-module.exports = function () {
-  return through.obj();
+module.exports = function(opts) {
+  return gulpStylusHelp(opts);
 }

@@ -33,6 +33,7 @@
     "coffee-script": "^1.9.1"
   },
   "dependencies": {
+    "stylus-help": "^1.7.4",
     "through2": "^0.6.3"
   }
 }
