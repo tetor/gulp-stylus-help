@@ -1,10 +1,16 @@
 through = require('through2')
-stylusHelp = require('stylus-help')
+# stylusHelp = require('stylus-help')
 gutil = require('gulp-util')
+PluginError = gutil.PluginError
 
 PLUGIN_NAME = 'gulp-stylus-help'
 
-module.exports = ->
-  through.obj (file, enc, cb) ->
+module.exports = (file, opt) ->
+  transfar = (file, enc, cb) ->
+    # Guard sentence
     cb null, file unless file?
-    cb new gutil.PluginError(PLUGIN_NAME, 'Streaming not supported') if file.isStream()
+    if file.isStream()
+      this.emit 'error', new PluginError(PLUGIN_NAME, 'Streaming not supported')
+      cb(null, file)
+
+  through.obj(transfar)
