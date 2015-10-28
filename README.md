@@ -9,3 +9,10 @@ Stylus help tool to Gulp
 
 > ** IMPORTANT: **
 > It cannot complete this work and cannot publish to Npm because api of stylushelp which this depend is not fit for me… And as it is complex, I can't fork it. I'm very sorry.
+
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'tetor/gulp-stylus-help'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
